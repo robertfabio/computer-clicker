@@ -1,0 +1,58 @@
+name: computer_clicker
+description: A complex space and computer science themed clicker game built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management
+  flutter_riverpod: ^2.3.6
+  
+  # Animations and graphics
+  flutter_animate: ^4.1.1+1
+  flame: ^1.8.1
+  fl_chart: ^0.63.0
+  
+  # Asset management
+  cached_network_image: ^3.2.3
+  
+  # Data persistence
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.0.15
+  shared_preferences: ^2.1.1
+  
+  # Audio
+  audioplayers: ^5.1.0
+  
+  # Localization and formatting
+  intl: ^0.18.1
+  
+  # Icons and UI
+  cupertino_icons: ^1.0.2
+  package_info_plus: ^8.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/audio/sounds/
+    - assets/audio/sounds/retro/
+    - assets/audio/sounds/classic/
+    - assets/audio/sounds/modern/
+    - assets/data/
